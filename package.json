@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-tesseract-french",
-  "version": "1.0.0",
+  "version": "1.0.0-rc1",
   "description": "Tesseract 4.1 (with French training data) to fit inside AWS Lambda, forked from shelf.io's work",
   "keywords": [
     "aws",
@@ -8,6 +8,10 @@
     "ocr",
     "tesseract"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/aws-lambda-tesseract-french",
+    "access": "public"
+  },
   "repository": "kimchicharlie/aws-lambda-tesseract",
   "license": "MIT",
   "author": {
@@ -69,7 +73,7 @@
   "engines": {
     "node": ">=16"
   },
-  "publishConfig": {
-    "access": "public"
+  "volta": {
+    "node": "16.10.0"
   }
 }
