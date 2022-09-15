@@ -50,7 +50,7 @@ cp /usr/lib64/libstdc++.so.6 lib/
 # copy training data
 mkdir tessdata
 cd tessdata
-curl -L https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/eng.traineddata --output eng.traineddata
+curl -L https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/fra.traineddata --output fra.traineddata
 
 # archive
 cd ~

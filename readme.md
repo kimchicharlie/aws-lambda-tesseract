@@ -1,6 +1,8 @@
 # aws-lambda-tesseract [![CircleCI](https://circleci.com/gh/shelfio/aws-lambda-tesseract/tree/master.svg?style=svg)](https://circleci.com/gh/shelfio/aws-lambda-tesseract/tree/master) ![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg) [![Tesseract](https://img.shields.io/badge/tesserract-6_MB-brightgreen.svg)](bin/)
 
-> 6 MB Tesseract 5.1 (with English training data) to fit inside AWS Lambda
+Tesseract 5.1 (with French training data) to fit inside AWS Lambda
+
+Forked from https://github.com/shelfio/aws-lambda-tesseract
 
 Inspired by [chrome-aws-lambda](https://github.com/alixaxel/chrome-aws-lambda) & [lambda-scanner-ocr](https://github.com/philippkeller/lambda-scanner-ocr)
 

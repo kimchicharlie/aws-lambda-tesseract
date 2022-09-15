@@ -16,7 +16,7 @@ export async function getExecutablePath(): Promise<string> {
 export async function getTextFromImage(filePath: string): Promise<string> {
   await extract({file: inputPath, cwd: '/tmp'});
 
-  const stdout = execFileSync(outputPath, [filePath, 'stdout', '-l', 'eng'], {
+  const stdout = execFileSync(outputPath, [filePath, 'stdout', '-l', 'fra'], {
     cwd: '/tmp/tesseract-standalone',
     env: {
       LD_LIBRARY_PATH: './lib',

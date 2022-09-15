@@ -1,14 +1,14 @@
 {
-  "name": "@shelf/aws-lambda-tesseract",
-  "version": "4.0.3",
-  "description": "6 MB Tesseract 4.1 (with English training data) to fit inside AWS Lambda",
+  "name": "aws-lambda-tesseract-french",
+  "version": "1.0.0",
+  "description": "Tesseract 4.1 (with French training data) to fit inside AWS Lambda, forked from shelf.io's work",
   "keywords": [
     "aws",
     "lambda",
     "ocr",
     "tesseract"
   ],
-  "repository": "shelfio/aws-lambda-tesseract",
+  "repository": "kimchicharlie/aws-lambda-tesseract",
   "license": "MIT",
   "author": {
     "name": "Vlad Holubiev",
