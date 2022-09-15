@@ -9,7 +9,6 @@
     "tesseract"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/aws-lambda-tesseract-french",
     "access": "public"
   },
   "repository": "kimchicharlie/aws-lambda-tesseract",
