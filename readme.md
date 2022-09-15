@@ -2,23 +2,17 @@
 
 Tesseract 5.1 (with French training data) to fit inside AWS Lambda
 
-Forked from https://github.com/shelfio/aws-lambda-tesseract
+Forked from https://github.com/shelfio/aws-lambda-tesseract, all the credits go to shelf.io, I just compiled Tesseract 5.1 for french language, changed the params passed to the cli and published it !
 
 Inspired by [chrome-aws-lambda](https://github.com/alixaxel/chrome-aws-lambda) & [lambda-scanner-ocr](https://github.com/philippkeller/lambda-scanner-ocr)
 
 ## Install
 
 ```
-$ yarn add @shelf/aws-lambda-tesseract
+$ yarn add aws-lambda-tesseract-french
 ```
 
-`1.x` versions of this library were compiled for Node 8.10.
-
-`2.x` was compiled for Node 10.x runtime.
-
-`3.x` works for Node 12.x runtime.
-
-`4.x` works for Node 16.x runtime and compiled with **Tesseract 5.1.0**. It works with x86_64 CPUs for now only.
+Works for Node 16.x runtime and compiled with **Tesseract 5.1.0**. It works with x86_64 CPUs for now only.
 
 ## How does it work?
 
@@ -29,7 +23,7 @@ When a Lambda starts, it unpacks an archive with a binary to the `/tmp` folder a
 ## Usage
 
 ```js
-const {getTextFromImage, isSupportedFile} = require('@shelf/aws-lambda-tesseract');
+const {getTextFromImage, isSupportedFile} = require('aws-lambda-tesseract-french');
 
 module.exports.handler = async event => {
   // assuming there is a photo.jpg inside /tmp dir

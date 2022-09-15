@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-tesseract-french",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0",
   "description": "Tesseract 4.1 (with French training data) to fit inside AWS Lambda, forked from shelf.io's work",
   "keywords": [
     "aws",
@@ -14,9 +14,9 @@
   "repository": "kimchicharlie/aws-lambda-tesseract",
   "license": "MIT",
   "author": {
-    "name": "Vlad Holubiev",
-    "email": "vlad@shelf.io",
-    "url": "shelf.io"
+    "name": "Charlie Henin",
+    "email": "charlie.henin@gmail.com",
+    "url": "https://charliehenin.com"
   },
   "main": "lib",
   "types": "lib/index.d.ts",
